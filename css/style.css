@@ -109,7 +109,7 @@ a:hover {
     min-height: 248px;
   }
   .text {
-    padding: 38px 80px 37px 35px;
+    padding: 33px 34px 37px 35px;
   }
   .block_parameters:nth-child(n + 2) {
     margin-top: 4px;
@@ -254,10 +254,10 @@ a:hover {
   }
   .block_parameters {
     width: 24.7%;
-    max-height: 320px;
+    min-height: 320px;
   }
   .text {
-    padding: 2.8vh 1.2vw 2.5vh 2.2vw;
+    padding: 37px 34px 37px 35px;
   }
   .product_block {
     width: 30%;

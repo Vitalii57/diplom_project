@@ -7,6 +7,7 @@
     <title>Diploma_project</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
+  <div class="wrapper">
     <div class="page">
         <header class="header header_image">
           <div class="header_menu">
@@ -40,8 +41,7 @@
           </div>
           <div class="header_text-position">
               <h1 class="header_text">
-                Блог о творчестве, спорте,<br>
-                и образе жизни
+                Блог о творчестве, спорте, и образе жизни 
               </h1>
           </div>
         </header>
@@ -57,7 +57,7 @@
                         <li class="link"><a class="link1" href="#0">lifestyle</a></li>
                         <li class="link"><a class="link1" href="#0">interior</a></li>
                       </ul>
-                    <span><a href="#0"><h2 class="style_text">сейчас в тренде: сад <br> на подоконнике</h2></a></span>
+                    <span><a href="#0"><h3 class="style_text">сейчас в тренде: сад на подоконнике</h3></a></span>
                   </div>
                 </div>
                     <div class="block_2 block_parameters">
@@ -65,7 +65,8 @@
                         <ul class="links">
                           <li class="link"><a class="link1" href="#0">food</a></li>
                         </ul>
-                      <span><a href="#0"><h2 class="style_text">сыры на красивых картинках из интернета: какие они на вкус?</h2></a></span>
+                      <span><a href="#0"><h3 class="style_text">сыры на красивых картинках из интернета: какие они на вкус?</h3
+                        ></a></span>
                     </div>
                   </div>
                   <div class="block_3 block_parameters">
@@ -74,7 +75,7 @@
                         <li class="link"><a class="link1" href="#0">lifestyle</a></li>
                         <li class="link"><a class="link1" href="#0">travel</a></li>
                       </ul>
-                    <span><a href="#0"><h2 class="style_text">собираемся в первый поход в горы</h2></a></span>
+                    <span><a href="#0"><h3 class="style_text">собираемся в первый поход в горы</h3></a></span>
                   </div>
                 </div>
                 <div class="block_4 block_parameters">
@@ -83,7 +84,7 @@
                       <li class="link"><a class="link1" href="#0">food</a></li>
                       <li class="link"><a class="link1" href="#0">health</a></li>
                     </ul>
-                  <span><a href="#0"><h2 class="style_text">сейчас в тренде: сколько витами с в лимонах?</h2></a></span>
+                  <span><a href="#0"><h3 class="style_text">сейчас в тренде: сколько витами с в лимонах?</h3></a></span>
                 </div>
               </div>
                 </div>
@@ -98,7 +99,7 @@
                     class="img"
                   />
                 </div>
-                <div class="new_text-container">
+                <div class="new_text-container new_border">
                   <ul class="links">
                     <li class="link"><a class="link1" href="#0">travel</a></li>
                     <li class="link"><a class="link1" href="#0">health</a></li>
@@ -130,7 +131,7 @@
                     class="img"
                   />
                 </div>
-                <div class="new_text-container">
+                <div class="new_text-container new_border">
                   <ul class="links">
                     <li class="link"><a class="link1" href="#0">health</a></li>
                     <li class="link"><a class="link1" href="#0">lifestyle</a></li>
@@ -162,7 +163,7 @@
                     class="img"
                   />
                 </div>
-                <div class="new_text-container">
+                <div class="new_text-container new_border">
                   <ul class="links">
                     <li class="link"><a class="link1" href="#0">music</a></li>
                   </ul>
@@ -194,7 +195,7 @@
                     class="img"
                   />
                 </div>
-                <div class="new_text-container">
+                <div class="new_text-container new_border">
                   <ul class="links">
                     <li class="link"><a class="link1" href="#0">lifestyle</a></li>
                     <li class="link"><a class="link1" href="#0">food</a></li>
@@ -362,7 +363,7 @@
               </section>
               <section class="indent">
                 <form class="search">
-                  <label class="search-group">
+                  <label class="search-group group_1">
                     <input
                       class="field"
                       name="query"
@@ -481,10 +482,11 @@
           <div class="products_container">
             <div class="product_block">
               <div class="img_product">
-                <picture>
-                  <source media="(max-width: 360px)" srcset="./img/shop-item-mobile1.jpg">
-                  <source media="(max-width: 768px)" srcset="./img/shop-item-tablet1.jpg">
-                  <img class="" src="./img/shop-item-desk1.jpg" alt="фото подушки">
+                <picture class="one">
+                  <source media="(max-width: 768px)" srcset="./img/shop-item-mobile1.jpg">
+                  <source media="(min-width: 768px)" srcset="./img/shop-item-tablet1.jpg">
+                  <source media="(min-width: 1200px)" srcset="./img/shop-item-desk1.jpg">
+                  <img src="./img/shop-item-desk1.jpg" alt="подушка">
                 </picture>
               </div>
               <div class="info_product">
@@ -494,7 +496,7 @@
                     </h2></a></div>
                 <div class="info_text">
                     <p class="text_p">
-                      Набор из двух подушек с модными принтами. Видео о создании <a class="text_color" href="#">здесь</a>.
+                        Набор из двух подушек с модными принтами. Видео о создании  <a class="text_color" href="#">здесь</a> 
                     </p>
                   </div>
                   <div class="price__container">
@@ -508,24 +510,26 @@
             </div>
             <div class="product_block">
               <div class="img_product">
-                <picture>
-                  <source media="(max-width: 360px)" srcset="./img/shop-item-mobile2.jpg">
-                  <source media="(max-width: 768px)" srcset="./img/shop-item-tablet2.jpg">
-                  <img class="" src="./img/shop-item-desk2.jpg" alt="кукла">
+                <picture class="one">
+                  <source media="(max-width: 768px)" srcset="./img/shop-item-mobile2.jpg">
+                  <source media="(min-width: 768px)" srcset="./img/shop-item-tablet2.jpg">
+                  <source media="(min-width: 1200px)" srcset="./img/shop-item-desk2.jpg">
+                  <img src="./img/shop-item-desk2.jpg" alt="кукла">
                 </picture>
               </div>
               <div class="info_product">
                 <div class="info_header">
                   <a href="#0"><h2 class="product_header-text">
-                    кукла «Зайчик»
+                    кукла «зайчик»
                     </h2></a></div>
                 <div class="info_text">
                     <p class="text_p">
-                      Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="text_color" href="#">весенняя серия постов</a> в блоке и несколько подкастов.
+                        Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="text_color" href="#">весенная серия постов</a> в блоге и несколько подкастов.
                     </p>
                   </div>
                   <div class="price__container">
                     <div class="text__price">
+                  
                       <span class="price_2 text_price-2">3500 ₽</span>
                     </div>
                     <button class="button_market"><a class="buttom_text" href="#">в магазин</a></button>
@@ -534,10 +538,11 @@
             </div>
             <div class="product_block">
               <div class="img_product">
-                <picture>
-                  <source media="(max-width: 360px)" srcset="./img/shop-item-mobile3.jpg">
-                  <source media="(max-width: 768px)" srcset="./img/shop-item-tablet3.jpg">
-                  <img class="" src="./img/shop-item-desk3.jpg" alt="рамка">
+                <picture class="one">
+                  <source media="(max-width: 768px)" srcset="./img/shop-item-mobile3.jpg">
+                  <source media="(min-width: 768px)" srcset="./img/shop-item-tablet3.jpg">
+                  <source media="(min-width: 1200px)" srcset="./img/shop-item-desk3.jpg">
+                  <img src="./img/shop-item-desk3.jpg" alt="рамка">
                 </picture>
               </div>
               <div class="info_product">
@@ -589,40 +594,41 @@
             </li>
           </div>
         </footer>
-        <!--<section class="popup">
-          <div class="popup_container">
-          
-            <div class="popup_header news_header">
-              <h2 class="aside_header_trends">ваш фидбек</h2>
-          </div>
-          <div><span>Как часто вы заходите на сайт?</span></div>
-          <label class="search-group">
-            <input
-              class="popup_search"
-              placeholder="Почти каждый день"
-              required/>
-            </label>
-            <div class="popup__email-text">
-            <span >Вы подписаны на e-mail рассылку?</span>
-          </div>
-            <div class="button_group">
-            <label class="radio-group">
-              <input type="radio" class="radio" name="radio-group"></input>
-              <span class="radio-group-text">Да</span>
-            </label>
-            <label class="radio-group">
-              <input type="radio" class="radio radio_2" name="radio-group"></input>
-              <span class="radio-group-text">Нет</span>
-            </label>
-            </div>
-            <span class="text_comments">Расскажите, какой контент вы хотели бы видеть<br>на нашем сайте?</span>
-            <div>
-              <textarea class="popup_comments" placeholder="Может, больше рецептов?"></textarea>
-            </div>
-            <a><button class="button_email popup_buttom">Отправить</button></a>
-          </div>
-        </section>-->
+        
         
       </div>
-       
+     <!-- <section class="popup">
+        <div class="popup_container">
+        
+          <div class="popup_header news_header">
+            <h2 class="aside_header_trends">ваш фидбек</h2>
+        </div>
+        <div><span>Как часто вы заходите на сайт?</span></div>
+        <label class="search-group">
+          <input
+            class="popup_search"
+            placeholder="Почти каждый день"
+            required/>
+          </label>
+          <div class="popup__email-text">
+          <span >Вы подписаны на e-mail рассылку?</span>
+        </div>
+          <div class="button_group">
+          <label class="radio-group">
+            <input type="radio" class="radio" name="radio-group"></input>
+            <span class="radio-group-text">Да</span>
+          </label>
+          <label class="radio-group">
+            <input type="radio" class="radio radio_2" name="radio-group"></input>
+            <span class="radio-group-text">Нет</span>
+          </label>
+          </div>
+          <span class="text_comments">Расскажите, какой контент вы хотели бы видеть<br>на нашем сайте?</span>
+          <div>
+            <textarea class="popup_comments" placeholder="Может, больше рецептов?"></textarea>
+          </div>
+          <a><button class="button_email popup_buttom">Отправить</button></a>
+        </div>
+      </section>-->
+  </div>
 </html>

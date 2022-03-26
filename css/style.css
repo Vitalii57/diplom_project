@@ -361,7 +361,7 @@ a:hover {
   .footer {
     margin-top: 66px;
   }
-  .hidden {
+  .popup {
     display: none;
   }
   .page::before {

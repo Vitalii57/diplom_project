@@ -103,6 +103,11 @@ a:hover {
   }
   
 }
+@media (min-width: 641px) { /* из-за этого отступа ломается верстка элементов как это исправить? */
+.product_block:nth-child(n+3){
+  margin-top: 5%;
+}
+}
 /*-----------------------------------------*/
 @media (min-width: 641px) and (max-width: 1200px) {
   .header_image {
@@ -219,9 +224,6 @@ a:hover {
   .info_product {
     min-width: 25%;
     flex-grow: 2;
-  }
-  .product_block:nth-child(n+3){
-    margin-top: 5%;
   }
   .popup {
     top: 5%;
@@ -483,7 +485,7 @@ a:hover {
   .info_product {
     min-height: 55%;
     min-width: 25%;
-    flex-grow: 1;
+    flex-grow: 2;
   }
   .footer {
     margin-top: 66px;

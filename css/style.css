@@ -88,28 +88,31 @@ a:hover {
 }
 /*-----------------------------------------*/
 @media (min-width: 641px) and (max-width: 1200px), (orientation: portrait) {
-  .block_parameters {
-    width: 69.7%;
+ .block_parameters {
+    width: 47%;
     min-height: 248px;
   }
-  .block_parameters:nth-child(n + 3) {
-    margin-top: 4px;
-  }
-  .block_parameters:nth-child(n + 3) {
-    margin-top: 4px;
-  }
-  .product_block {
-    width: 48%;
-  }
+ 
+  
   
 }
-@media (min-width: 641px) { /* из-за этого отступа ломается верстка элементов как это исправить? */
+@media (min-width: 641px) and (max-width: 1200px), (orientation: landscape) {
+ div .block_parameters {
+    width: 24.7%;
+    min-height: 320px;
+  }
+ 
+  
+  
+}
+@media (min-width: 641px) and (max-width: 1200px) { 
 .product_block:nth-child(n+3){
   margin-top: 5%;
 }
+
 }
 /*-----------------------------------------*/
-@media (min-width: 641px) and (max-width: 1200px) {
+@media (min-width: 641px) and (max-width: 1200px), (orientation: portrait) {
   .header_image {
     background-image: url("../img/banner-bg-tablet.jpg");
     background-color: #000000;
@@ -225,11 +228,7 @@ a:hover {
     min-width: 25%;
     flex-grow: 2;
   }
-  .popup {
-    top: 5%;
-    left: 32%;
-    display: none;
-  }
+  
 }
 /*-----------------------------------------*/
 @media (max-width: 640px) {
@@ -358,12 +357,8 @@ a:hover {
   .footer {
     margin-top: 66px;
   }
-  .popup {
-    display: none;
-  }
-  .page::before {
-    display: none;
-  }
+  
+ 
 }
 
 .header::after {
@@ -489,11 +484,6 @@ a:hover {
   }
   .footer {
     margin-top: 66px;
-  }
-  .popup {
-    top: 5%;
-    left: 38%;
-    display: none;
   }
 }
 /*-----------------------------------------*/
@@ -920,7 +910,7 @@ picture > img , source {
   background-image: url("../svg/003-tumblr.svg");
 }
 .popup {
-  position: absolute;
+  position: fixed;
   z-index: 7;
 }
 .popup_block {
@@ -1033,5 +1023,13 @@ picture > img , source {
   background-color: #000000;
   opacity: 0.5;
   z-index: 6;
+  
+}
+.popup {
+  top: 5%;
+  left: calc(50% - 195px); 
+}
+
+._hidden, .page::before {
   display: none;
 }

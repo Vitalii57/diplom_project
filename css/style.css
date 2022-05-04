@@ -87,21 +87,21 @@ a:hover {
   margin-top: 12%;
 }
 /*-----------------------------------------*/
-@media (min-width: 641px) and (max-width: 1200px), (orientation: portrait) {
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
  .block_parameters {
-    width: 47%;
+    width: 49.9%;
     min-height: 248px;
   }
- 
-  
+  .block_parameters:nth-child(n + 3) {
+    margin-top: 4px;
+  }
   
 }
-@media (min-width: 641px) and (max-width: 1200px), (orientation: landscape) {
+@media (min-width: 641px) and (max-width: 1200px)  and (orientation: landscape) {
  div .block_parameters {
-    width: 24.7%;
+    width: 24.9%;
     min-height: 320px;
   }
- 
   
   
 }
@@ -128,9 +128,7 @@ a:hover {
   .text {
     padding: 33px 34px 37px 35px;
   }
-  .block_parameters:nth-child(n + 3) {
-    margin-top: 4px;
-  }
+  
   .product_block {
     width: 48%;
     flex-direction: column;

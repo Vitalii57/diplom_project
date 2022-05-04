@@ -112,7 +112,7 @@ a:hover {
 
 }
 /*-----------------------------------------*/
-@media (min-width: 641px) and (max-width: 1200px), (orientation: portrait) {
+@media (min-width: 641px) and (max-width: 1200px) {
   .header_image {
     background-image: url("../img/banner-bg-tablet.jpg");
     background-color: #000000;
